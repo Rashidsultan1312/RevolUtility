@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30001 /* EconomicRevolutionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30001; };
+		A30002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30002; };
+		A30003 /* RVTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30003; };
+		A30004 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30004; };
+		A30005 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30005; };
+		A30006 /* ExpenseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30006; };
+		A30007 /* InsightEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30007; };
+		A30008 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30008; };
+		A30009 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30009; };
+		A30010 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30010; };
+		A30011 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30011; };
+		A30012 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30012; };
+		A30013 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30013; };
+		A30014 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30014; };
+		A30015 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30015; };
+		A30016 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30016; };
+		A30017 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30017; };
+		A30018 /* CategoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30018; };
+		A30019 /* InsightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30019; };
+		A30020 /* BalanceRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30020; };
+		A30021 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30021; };
+		A30022 /* AnimatedCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30022; };
+		A30023 /* MiniBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30023; };
+		A30026 /* WebGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30026; };
+		A30027 /* WebGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30027; };
+		A30028 /* WebGateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30028; };
+		A30029 /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30029; };
+		A30031 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30031; };
+		A30030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30030; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B30001 /* EconomicRevolutionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicRevolutionApp.swift; sourceTree = "<group>"; };
+		B30002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B30003 /* RVTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVTheme.swift; sourceTree = "<group>"; };
+		B30004 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		B30005 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B30006 /* ExpenseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseStore.swift; sourceTree = "<group>"; };
+		B30007 /* InsightEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightEngine.swift; sourceTree = "<group>"; };
+		B30008 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B30009 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		B30010 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B30011 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B30012 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B30013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B30014 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		B30015 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B30016 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		B30017 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		B30018 /* CategoryChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryChart.swift; sourceTree = "<group>"; };
+		B30019 /* InsightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightCard.swift; sourceTree = "<group>"; };
+		B30020 /* BalanceRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceRing.swift; sourceTree = "<group>"; };
+		B30021 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		B30022 /* AnimatedCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCounter.swift; sourceTree = "<group>"; };
+		B30023 /* MiniBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBarChart.swift; sourceTree = "<group>"; };
+		B30026 /* WebGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGate.swift; sourceTree = "<group>"; };
+		B30027 /* WebGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGateView.swift; sourceTree = "<group>"; };
+		B30028 /* WebGateConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGateConfig.swift; sourceTree = "<group>"; };
+		B30029 /* RemoteConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
+		B30031 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		B30030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C30001 /* EconomicRevolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EconomicRevolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E30000 = {
+			isa = PBXGroup;
+			children = (
+				E30001 /* EconomicRevolution */,
+				E30099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E30001 /* EconomicRevolution */ = {
+			isa = PBXGroup;
+			children = (
+				E30002 /* App */,
+				E30003 /* Theme */,
+				E30004 /* Models */,
+				E30005 /* Views */,
+				E30006 /* Components */,
+				E30007 /* WebGate */,
+				B30030 /* Assets.xcassets */,
+			);
+			path = EconomicRevolution;
+			sourceTree = "<group>";
+		};
+		E30002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B30001 /* EconomicRevolutionApp.swift */,
+				B30002 /* ContentView.swift */,
+				B30031 /* AppConfig.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E30003 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B30003 /* RVTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E30004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B30004 /* Transaction.swift */,
+				B30005 /* Category.swift */,
+				B30006 /* ExpenseStore.swift */,
+				B30007 /* InsightEngine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E30005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B30008 /* DashboardView.swift */,
+				B30009 /* InsightsView.swift */,
+				B30010 /* HistoryView.swift */,
+				B30011 /* StatsView.swift */,
+				B30012 /* ProfileView.swift */,
+				B30013 /* SettingsView.swift */,
+				B30014 /* PrivacyPolicyView.swift */,
+				B30015 /* OnboardingView.swift */,
+				B30016 /* AddTransactionView.swift */,
+				B30017 /* CategoriesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E30006 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B30018 /* CategoryChart.swift */,
+				B30019 /* InsightCard.swift */,
+				B30020 /* BalanceRing.swift */,
+				B30021 /* CategoryRow.swift */,
+				B30022 /* AnimatedCounter.swift */,
+				B30023 /* MiniBarChart.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E30007 /* WebGate */ = {
+			isa = PBXGroup;
+			children = (
+				B30026 /* WebGate.swift */,
+				B30027 /* WebGateView.swift */,
+				B30028 /* WebGateConfig.swift */,
+				B30029 /* RemoteConfigService.swift */,
+			);
+			path = WebGate;
+			sourceTree = "<group>";
+		};
+		E30099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C30001 /* EconomicRevolution.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30001 /* EconomicRevolution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G30003;
+			buildPhases = (
+				F30002 /* Sources */,
+				D30001 /* Frameworks */,
+				F30003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EconomicRevolution;
+			productName = EconomicRevolution;
+			productReference = C30001 /* EconomicRevolution.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P30001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F30001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = G30001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E30000;
+			productRefGroup = E30099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30001 /* EconomicRevolution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30030 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30001 /* EconomicRevolutionApp.swift in Sources */,
+				A30002 /* ContentView.swift in Sources */,
+				A30003 /* RVTheme.swift in Sources */,
+				A30004 /* Transaction.swift in Sources */,
+				A30005 /* Category.swift in Sources */,
+				A30006 /* ExpenseStore.swift in Sources */,
+				A30007 /* InsightEngine.swift in Sources */,
+				A30008 /* DashboardView.swift in Sources */,
+				A30009 /* InsightsView.swift in Sources */,
+				A30010 /* HistoryView.swift in Sources */,
+				A30011 /* StatsView.swift in Sources */,
+				A30012 /* ProfileView.swift in Sources */,
+				A30013 /* SettingsView.swift in Sources */,
+				A30014 /* PrivacyPolicyView.swift in Sources */,
+				A30015 /* OnboardingView.swift in Sources */,
+				A30016 /* AddTransactionView.swift in Sources */,
+				A30017 /* CategoriesView.swift in Sources */,
+				A30018 /* CategoryChart.swift in Sources */,
+				A30019 /* InsightCard.swift in Sources */,
+				A30020 /* BalanceRing.swift in Sources */,
+				A30021 /* CategoryRow.swift in Sources */,
+				A30022 /* AnimatedCounter.swift in Sources */,
+				A30023 /* MiniBarChart.swift in Sources */,
+				A30026 /* WebGate.swift in Sources */,
+				A30027 /* WebGateView.swift in Sources */,
+				A30028 /* WebGateConfig.swift in Sources */,
+				A30029 /* RemoteConfigService.swift in Sources */,
+				A30031 /* AppConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G30002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G30004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G30005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = JP4X7J94WL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Economic Revolution";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alienpaul.lol.economicrevolutionapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		G30006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = JP4X7J94WL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Economic Revolution";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alienpaul.lol.economicrevolutionapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G30001 /* Build configuration list for PBXProject "EconomicRevolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G30002 /* Debug */,
+				G30004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G30003 /* Build configuration list for PBXNativeTarget "EconomicRevolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G30005 /* Debug */,
+				G30006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = P30001 /* Project object */;
+}

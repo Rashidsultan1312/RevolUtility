@@ -1,0 +1,48 @@
+workflows:
+  ios-native-quick-start:
+    name: iOS Native
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+
+    integrations:
+      app_store_connect: ER
+
+    environment:
+      xcode: latest
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.alienpaul.lol.economicrevolutionapp
+      vars:
+        BUNDLE_ID: "com.alienpaul.lol.economicrevolutionapp"
+        XCODE_PROJECT: "EconomicRevolution.xcodeproj"
+        XCODE_SCHEME: "EconomicRevolution"
+        APP_STORE_APPLE_ID: "6762139135"
+
+    scripts:
+      - name: Set up code signing
+        script: |
+          xcode-project use-profiles
+
+      - name: Verify build number in project
+        script: |
+          set -x
+          grep -n "MARKETING_VERSION" "$CM_BUILD_DIR/$XCODE_PROJECT/project.pbxproj"
+          grep -n "CURRENT_PROJECT_VERSION" "$CM_BUILD_DIR/$XCODE_PROJECT/project.pbxproj"
+
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa \
+            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME"
+
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        submit_to_app_store: false
